@@ -42,7 +42,7 @@ const Exchanges = () => {
                   </Row>
                   )}
               >
-                {HTMLReactParser(exchange.description || 'No details available at the moment !')}
+                {HTMLReactParser(exchange.description || 'No further availble detailts at the moment!')}
               </Panel>
             </Collapse>
           </Col>
